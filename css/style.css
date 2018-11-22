@@ -424,18 +424,35 @@ section#product-section .product_info .Shipping-and-payment .second_list li:nth-
   margin-left: -28px;
   position: absolute;
 }
+p.product_name {
+  line-height: 16px;
+  position: relative;
+  height: 48px;
+}
+.divider {
+  z-index: 12;
+  position: absolute;
+  background-color: red;
+  height: 25px;
+  max-height: 48px;
+  width: 100%;
+  margin-top: -35px;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+}
 section#product_description .container hr {
   margin-top: 5px;
   width: 100%;
 }
 section#product_description .container .interested_in {
   padding-top: 10px;
-  /*max-width: 270px;*/
   min-width: 270px;
   background-color: #fff;
   position: relative;
   border: 1px solid #ebebeb;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 section#product_description .container .interested_in p.title {
   padding-left: 15px;
@@ -769,6 +786,7 @@ section#product_description .container .wrapper_content .Together_cheaper .toget
   font-size: 13px;
   font-family: Roboto-Regular;
   color: #6d6d6d;
+  height: auto;
 }
 section#product_description .container .wrapper_content .Together_cheaper .together p.product_price {
   font-size: 16px;
